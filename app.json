@@ -4,11 +4,10 @@
     "slug": "movie_finder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tempLogo.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#686868"
+      "image": "./assets/tempLogo.png",
+      "backgroundColor": "#4bd083"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,7 +19,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tempLogo.png"
     },
     "description": "",
     "githubUrl": "https://github.com/lind13/movie_finder.git"
