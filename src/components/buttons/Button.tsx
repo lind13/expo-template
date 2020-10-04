@@ -1,13 +1,12 @@
 import React from "react";
-import styled from "styled-components";
-import { TouchableOpacity, Text } from "react-native";
+import styled from "styled-components/native";
 
 type ButtonProps = {
   title: string;
   onPress: () => void;
 };
 
-const StyledButton = styled(TouchableOpacity)`
+const StyledButton = styled.TouchableOpacity`
   height: 40px;
   width: 140px;
   display: flex;
@@ -15,13 +14,13 @@ const StyledButton = styled(TouchableOpacity)`
   justify-content: center;
   margin: 8px;
   border-radius: 5px;
-  background-color: white;
+  background-color: ${(props) => props.theme.Button.backgroundColor};
 `;
 
-const StyledText = styled(Text)`
+const StyledText = styled.Text`
   text-decoration: none;
   font-weight: 300;
-  color: #4bd083;
+  color: ${(props) => props.theme.Button.textColor};
   text-align: center;
 `;
 
