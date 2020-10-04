@@ -15,7 +15,7 @@ const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
   const [number, setNumber] = useState<number>(0);
 
   const increment = () => {
-    setNumber(number + 12000);
+    setNumber(number + 1);
   };
 
   const decrement = () => {
