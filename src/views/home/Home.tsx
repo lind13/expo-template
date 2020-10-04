@@ -34,7 +34,7 @@ const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
         <Text style={styles.text}>{number}</Text>
         <Button title={t("STR_INCREMENT")} onPress={increment} />
         <Button title={t("STR_DECREMENT")} onPress={decrement} />
-        <Button title={"Toggle theme"} onPress={changeTheme} />
+        <Button title={"Toggle themes"} onPress={changeTheme} />
       </View>
     </>
   );
