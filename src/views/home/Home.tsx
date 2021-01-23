@@ -6,6 +6,7 @@ import { mapDispatchToProps } from "../../reducers/utils";
 import { connect } from "react-redux";
 import { setTheme } from "../../reducers/Globals/Theme/actions/actions";
 import { mapThemeStateToProps } from "../../reducers/Globals/Theme/themeReducer";
+import { StyledSafeAreaView } from "../../components/StyledSafeAreaView";
 
 type HomeProps = ReturnType<typeof mapDispatchToProps> &
   ReturnType<typeof mapThemeStateToProps>;
@@ -28,7 +29,7 @@ const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
   };
 
   return (
-    <>
+    <StyledSafeAreaView>
       <Text style={styles.header}>Movie Finder</Text>
       <View style={styles.btnContainer}>
         <Text style={styles.text}>{number}</Text>
@@ -36,7 +37,7 @@ const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
         <Button title={t("STR_DECREMENT")} onPress={decrement} />
         <Button title={"Toggle theme"} onPress={changeTheme} />
       </View>
-    </>
+    </StyledSafeAreaView>
   );
 };
 

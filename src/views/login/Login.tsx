@@ -1,14 +1,13 @@
 import React from "react";
 import { Text, View } from "react-native";
-import { Link } from "react-router-native";
+import { StyledSafeAreaView } from "../../components/StyledSafeAreaView";
 
 export default function Login(): JSX.Element {
   return (
-    <View>
-      <Text>Login View</Text>
-      <Link to={"/"}>
-        <Text>Home</Text>
-      </Link>
-    </View>
+    <StyledSafeAreaView>
+      <View>
+        <Text>Login View</Text>
+      </View>
+    </StyledSafeAreaView>
   );
 }
