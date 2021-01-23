@@ -14,9 +14,15 @@ export const DefaultTheme: Theme = {
     shadow: "none",
   },
   Card: {
-    backGroundColor: ThemeColors.green,
+    backgroundColor: ThemeColors.green,
     textColor: ThemeColors.white,
     secondaryTextColor: ThemeColors.black,
     border: ThemeColors.green,
   },
+  TabBar: {
+    backgroundColor: ThemeColors.white,
+    textColor: ThemeColors.green,
+    active: ThemeColors.green,
+    activeText: ThemeColors.white
+  }
 };

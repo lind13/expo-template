@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components/native";
-import { StyleSheet } from "react-native";
+import { shadow } from "../../common/style/shadow";
 
 type ButtonProps = {
   title: string;
@@ -27,22 +27,8 @@ const StyledText = styled.Text`
 
 export const Button: React.FunctionComponent<ButtonProps> = (props) => {
   return (
-    <StyledButton onPress={props.onPress} style={styles.boxShadow}>
+    <StyledButton onPress={props.onPress} style={shadow.boxShadow}>
       <StyledText>{props.title}</StyledText>
     </StyledButton>
   );
 };
-
-const styles = StyleSheet.create({
-  boxShadow: {
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.23,
-    shadowRadius: 2.62,
-
-    elevation: 4,
-  },
-});

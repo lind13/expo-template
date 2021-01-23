@@ -3,17 +3,24 @@ export default interface Theme {
     backgroundColor: string;
     textColor: string;
     secondaryTextColor: string;
-  };
+  },
   Button: {
     backgroundColor: string;
     textColor: string;
     border: string;
     shadow: string;
-  };
+  },
   Card: {
-    backGroundColor: string;
+    backgroundColor: string;
     textColor: string;
     secondaryTextColor: string;
     border: string;
-  };
+  },
+  TabBar: {
+    backgroundColor: string;
+    textColor: string;
+    active: string;
+    activeText: string;
+  }
+
 }
