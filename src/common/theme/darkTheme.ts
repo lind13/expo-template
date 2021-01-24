@@ -3,13 +3,13 @@ import { ThemeColors } from "./colors";
 
 export const DarkTheme: Theme = {
   Main: {
-    backgroundColor: ThemeColors.black,
+    backgroundColor: ThemeColors.darkGrey,
     textColor: ThemeColors.green,
     secondaryTextColor: ThemeColors.white,
   },
   Button: {
     backgroundColor: ThemeColors.green,
-    textColor: ThemeColors.black,
+    textColor: ThemeColors.white,
     border: ThemeColors.green,
     shadow: "none",
   },
@@ -22,7 +22,7 @@ export const DarkTheme: Theme = {
   TabBar: {
     backgroundColor: ThemeColors.green,
     textColor: ThemeColors.white,
-    active: ThemeColors.black,
+    active: ThemeColors.darkGrey,
     activeText: ThemeColors.green
   }
 };

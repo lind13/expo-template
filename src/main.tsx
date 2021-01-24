@@ -12,9 +12,9 @@ export default function Main(): JSX.Element {
       tabBar={props => <TabBar {...props}/>}
     >
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Login" component={Login} />
-      <Tab.Screen name="Settings" component={Login} />
+      <Tab.Screen name="Chat" component={Login} />
       <Tab.Screen name="Games" component={Login} />
+      <Tab.Screen name="Settings" component={Login} />
     </Tab.Navigator>
   );
 }

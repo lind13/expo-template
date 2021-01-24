@@ -74,8 +74,9 @@ export const TabBar: React.FunctionComponent<BottomTabBarProps> = (props) =>  {
             onPress={onPress}
             onLongPress={onLongPress}
             active={isFocused}
+            style={isFocused && shadow.boxShadow}
           >
-            <TabBarText active={isFocused}>
+            <TabBarText active={isFocused} >
               {label}
             </TabBarText>
           </TabBarButton>
