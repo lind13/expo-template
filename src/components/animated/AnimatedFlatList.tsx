@@ -33,12 +33,6 @@ const MovieCardList = () => {
     useNativeDriver: true,
   });
 
-  const sortList = () => {
-    const firtsItems = cards.slice(5);
-    cards.splice(0, 5);
-    cards.push(...firtsItems);
-  };
-
   return (
     <AnimatedFlatList
       scrollEventThrottle={16}
@@ -51,7 +45,6 @@ const MovieCardList = () => {
           text={item.item as string}
         />
       )}
-      onEndReached={sortList}
       //   keyExtractor={({ item, index}) => index.toString()}
       {...{ onScroll }}
       style={{
