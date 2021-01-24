@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import * as React from "react";
 import { useTranslation } from "react-i18next";
 import { StyleSheet, Text, View } from "react-native";
 import { Button } from "../../components/buttons/Button";
@@ -13,7 +13,7 @@ type HomeProps = ReturnType<typeof mapDispatchToProps> &
 
 const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
   const { t } = useTranslation();
-  const [number, setNumber] = useState<number>(0);
+  const [number, setNumber] = React.useState<number>(0);
 
   const increment = () => {
     setNumber(number + 1);

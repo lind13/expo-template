@@ -14,10 +14,10 @@ export const DefaultTheme: Theme = {
     shadow: "none",
   },
   Card: {
-    backgroundColor: ThemeColors.green,
-    textColor: ThemeColors.white,
+    backgroundColor: ThemeColors.white,
+    textColor: ThemeColors.green,
     secondaryTextColor: ThemeColors.black,
-    border: ThemeColors.green,
+    border: ThemeColors.white,
   },
   TabBar: {
     backgroundColor: ThemeColors.white,

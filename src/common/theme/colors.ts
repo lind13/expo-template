@@ -2,5 +2,6 @@ export const ThemeColors = {
   green: "#4bd083",
   white: "white",
   black: "black",
-  darkGrey: "rgb(58,58,58)"
+  darkGrey: "rgb(58,58,58)",
+  grey: "rgb(86,86,86)"
 };

@@ -14,10 +14,10 @@ export const DarkTheme: Theme = {
     shadow: "none",
   },
   Card: {
-    backgroundColor: ThemeColors.black,
+    backgroundColor: ThemeColors.grey,
     textColor: ThemeColors.white,
     secondaryTextColor: ThemeColors.green,
-    border: ThemeColors.black,
+    border: ThemeColors.grey,
   },
   TabBar: {
     backgroundColor: ThemeColors.green,
