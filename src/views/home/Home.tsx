@@ -30,7 +30,7 @@ const _Home: React.FunctionComponent<HomeProps> = (props): JSX.Element => {
 
   return (
     <StyledSafeAreaView>
-      <Text style={styles.header}>Movie Finder</Text>
+      <Text style={styles.header}>Home</Text>
       <View style={styles.btnContainer}>
         <Text style={styles.text}>{number}</Text>
         <Button title={t("STR_INCREMENT")} onPress={increment} />

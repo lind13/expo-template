@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "movie_finder",
-    "slug": "movie_finder",
+    "name": "expo_template",
+    "slug": "expo_template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/tempLogo.png",
@@ -22,6 +22,6 @@
       "favicon": "./assets/tempLogo.png"
     },
     "description": "",
-    "githubUrl": "https://github.com/lind13/movie_finder.git"
+    "githubUrl": "https://github.com/lind13/expo_template.git"
   }
 }
